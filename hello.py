@@ -1,5 +1,7 @@
 #This code is for practicing the basics of Python
 
+import math
+
 #This code print the Hello World! message
 print("Hello, World!")
 
@@ -35,3 +37,16 @@ def remaining(a,b):
     return a%b
 print("The remainder of this division %s is " %remaining(7,2))
 
+#Calculate the square root of a number
+def squareRoot(a):
+    return math.sqrt(a)
+sqrt1 = squareRoot(55)
+sqrt2 = squareRoot(5)
+print("The square root of these two numers %s is : " %sqrt1 +" and %s" %sqrt2) #
+
+#Calculate the square root of a number
+def square(a):
+    return a**2
+sq1 = square(55)
+sq2 = square(5)
+print("The square of these two numers %s is : " %sq1 +" and %s" %sq2) #
