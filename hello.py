@@ -30,4 +30,8 @@ def divide(a,b):
     
 print("Division of these two numbers is %s " %divide(58,2)) # This prints the division of thse 2 numbers    
 
+# Method to calculate the remainder of two numbers 
+def remaining(a,b):
+    return a%b
+print("The remainder of this division %s is " %remaining(7,2))
 
