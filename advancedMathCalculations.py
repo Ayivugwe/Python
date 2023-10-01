@@ -21,10 +21,15 @@ def divide(a, b):
     return a/b
 
 print("Choose the operation you wish to perform")
-print(" 1. Addition \n 2. Substaction \n 3. Division \n 4. Multiplication \n")
+
+choices = {"1":"Addition", "2":"Substraction", "3":"Division", "4":"Multiplication"}
+
+
+for x,y in choices.items(): 
+ print(x,y)
 
 choice = input("Choose one option : ")
-print("Your choice %s is : " %choice)
+print("Your choice is : "+choice)
 
 def treatChoice(choice):
     print(choice)
