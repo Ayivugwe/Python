@@ -42,3 +42,5 @@ print("--------------------------------\n")
 print("The result of that operation is %s : " %treatChoice(choice))
 
 print("-------------  Thank you so much!!! ------------------- \n\n")
+
+print("October inspiration")
